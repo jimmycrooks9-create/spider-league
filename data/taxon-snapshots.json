@@ -1,0 +1,852 @@
+[
+  {
+    "acceptedName": "Araneae",
+    "acceptedFullName": "Araneae",
+    "rank": "ORDER",
+    "taxonKey": "ARANEAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Agelenidae",
+    "acceptedFullName": "Agelenidae",
+    "rank": "FAMILY",
+    "taxonKey": "AGELENIDAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Agelenidae",
+        "rank": "FAMILY"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Araneidae",
+    "acceptedFullName": "Araneidae",
+    "rank": "FAMILY",
+    "taxonKey": "ARANEIDAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Araneidae",
+        "rank": "FAMILY"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Lycosidae",
+    "acceptedFullName": "Lycosidae",
+    "rank": "FAMILY",
+    "taxonKey": "LYCOSIDAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Lycosidae",
+        "rank": "FAMILY"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Salticidae",
+    "acceptedFullName": "Salticidae",
+    "rank": "FAMILY",
+    "taxonKey": "SALTICIDAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Salticidae",
+        "rank": "FAMILY"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Sparassidae",
+    "acceptedFullName": "Sparassidae",
+    "rank": "FAMILY",
+    "taxonKey": "SPARASSIDAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Sparassidae",
+        "rank": "FAMILY"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Thomisidae",
+    "acceptedFullName": "Thomisidae",
+    "rank": "FAMILY",
+    "taxonKey": "THOMISIDAE",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Thomisidae",
+        "rank": "FAMILY"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Agelenopsis",
+    "acceptedFullName": "Agelenopsis",
+    "rank": "GENUS",
+    "taxonKey": "AGELENOPSIS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Agelenidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Agelenopsis",
+        "rank": "GENUS"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Kukulcania",
+    "acceptedFullName": "Kukulcania",
+    "rank": "GENUS",
+    "taxonKey": "KUKULCANIA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Filistatidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Kukulcania",
+        "rank": "GENUS"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Lampona",
+    "acceptedFullName": "Lampona",
+    "rank": "GENUS",
+    "taxonKey": "LAMPONA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Lamponidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Lampona",
+        "rank": "GENUS"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Latrodectus",
+    "acceptedFullName": "Latrodectus",
+    "rank": "GENUS",
+    "taxonKey": "LATRODECTUS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Latrodectus",
+        "rank": "GENUS"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Steatoda",
+    "acceptedFullName": "Steatoda",
+    "rank": "GENUS",
+    "taxonKey": "STEATODA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Steatoda",
+        "rank": "GENUS"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Araneus diadematus",
+    "acceptedFullName": "Araneus diadematus",
+    "rank": "SPECIES",
+    "taxonKey": "ARANEUS-DIADEMATUS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Araneidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Araneus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Araneus diadematus",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Atrax robustus",
+    "acceptedFullName": "Atrax robustus",
+    "rank": "SPECIES",
+    "taxonKey": "A-ROB",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Atracidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Atrax",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Atrax robustus",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Cheiracanthium mildei",
+    "acceptedFullName": "Cheiracanthium mildei",
+    "rank": "SPECIES",
+    "taxonKey": "CHEIRACANTHIUM-MILDEI",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Cheiracanthiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Cheiracanthium",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Cheiracanthium mildei",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Dysdera crocata",
+    "acceptedFullName": "Dysdera crocata",
+    "rank": "SPECIES",
+    "taxonKey": "DYSDERA_CROCATA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Dysderidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Dysdera",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Dysdera crocata",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Eratigena agrestis",
+    "acceptedFullName": "Eratigena agrestis",
+    "rank": "SPECIES",
+    "taxonKey": "ERATIGENA-AGRESTIS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Agelenidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Eratigena",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Eratigena agrestis",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Eratigena duellica",
+    "acceptedFullName": "Eratigena duellica",
+    "rank": "SPECIES",
+    "taxonKey": "ERATIGENA-DUELLICA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Agelenidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Eratigena",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Eratigena duellica",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Kukulcania hibernalis",
+    "acceptedFullName": "Kukulcania hibernalis",
+    "rank": "SPECIES",
+    "taxonKey": "KUKULCANIA_HIBERNALIS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Filistatidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Kukulcania",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Kukulcania hibernalis",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Lampona cylindrata",
+    "acceptedFullName": "Lampona cylindrata",
+    "rank": "SPECIES",
+    "taxonKey": "L-CYL",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Lamponidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Lampona",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Lampona cylindrata",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Lampona murina",
+    "acceptedFullName": "Lampona murina",
+    "rank": "SPECIES",
+    "taxonKey": "L-MUR",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Lamponidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Lampona",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Lampona murina",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Latrodectus hasselti",
+    "acceptedFullName": "Latrodectus hasselti",
+    "rank": "SPECIES",
+    "taxonKey": "L-HAS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Latrodectus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Latrodectus hasselti",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Latrodectus hesperus",
+    "acceptedFullName": "Latrodectus hesperus",
+    "rank": "SPECIES",
+    "taxonKey": "LATRODECTUS-HESPERUS",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Latrodectus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Latrodectus hesperus",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Latrodectus mactans",
+    "acceptedFullName": "Latrodectus mactans",
+    "rank": "SPECIES",
+    "taxonKey": "L-MAC",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Latrodectus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Latrodectus mactans",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Loxosceles reclusa",
+    "acceptedFullName": "Loxosceles reclusa",
+    "rank": "SPECIES",
+    "taxonKey": "L-REC",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Sicariidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Loxosceles",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Loxosceles reclusa",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Misumena vatia",
+    "acceptedFullName": "Misumena vatia",
+    "rank": "SPECIES",
+    "taxonKey": "MISUMENA-VATIA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Thomisidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Misumena",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Misumena vatia",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Parasteatoda tepidariorum",
+    "acceptedFullName": "Parasteatoda tepidariorum",
+    "rank": "SPECIES",
+    "taxonKey": "PARASTEATODA-TEPIDARIORUM",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Parasteatoda",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Parasteatoda tepidariorum",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Phidippus audax",
+    "acceptedFullName": "Phidippus audax",
+    "rank": "SPECIES",
+    "taxonKey": "PHIDIPPUS-AUDAX",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Salticidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Phidippus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Phidippus audax",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Pholcus phalangioides",
+    "acceptedFullName": "Pholcus phalangioides",
+    "rank": "SPECIES",
+    "taxonKey": "PHOLCUS-PHALANGIOIDES",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Pholcidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Pholcus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Pholcus phalangioides",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Scotophaeus blackwalli",
+    "acceptedFullName": "Scotophaeus blackwalli",
+    "rank": "SPECIES",
+    "taxonKey": "SCOTOPHAEUS-BLACKWALLI",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Gnaphosidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Scotophaeus",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Scotophaeus blackwalli",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "acceptedName": "Steatoda grossa",
+    "acceptedFullName": "Steatoda grossa",
+    "rank": "SPECIES",
+    "taxonKey": "STEATODA-GROSSA",
+    "classification": [
+      {
+        "name": "Animalia",
+        "rank": "KINGDOM"
+      },
+      {
+        "name": "Araneae",
+        "rank": "ORDER"
+      },
+      {
+        "name": "Theridiidae",
+        "rank": "FAMILY"
+      },
+      {
+        "name": "Steatoda",
+        "rank": "GENUS"
+      },
+      {
+        "name": "Steatoda grossa",
+        "rank": "SPECIES"
+      }
+    ],
+    "synonym": false,
+    "reviewedDate": "2026-06-27"
+  }
+]

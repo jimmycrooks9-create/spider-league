@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>App diagnostics — Spider League</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <p><a href="index.html">← Back to the rater</a></p>
+    <p class="eyebrow">SPIDER LEAGUE</p>
+    <h1>App diagnostics</h1>
+    <p class="intro">Tests the local evidence files, live name services, and install support in this browser.</p>
+    <button id="run-diagnostics" type="button">Run checks</button>
+    <p id="diagnostic-summary" class="status" role="status" aria-live="polite"></p>
+    <section id="diagnostic-results" class="diagnostic-grid"></section>
+    <article class="card diagnostic-notes">
+      <h2>How to read this</h2>
+      <p>The rater can still resolve bundled aliases when a live service is unavailable. Unknown common names require iNaturalist, while newly entered scientific names require GBIF validation unless a reviewed local snapshot already exists.</p>
+    </article>
+  </main>
+  <script type="module" src="diagnostics.js"></script>
+</body>
+</html>

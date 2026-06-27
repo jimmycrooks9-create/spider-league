@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Spider League SDI evidence coverage and research queue.">
+  <title>Evidence Coverage — Spider League</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <p><a href="index.html">← Back to the rater</a></p>
+    <p class="eyebrow">SPIDER LEAGUE</p>
+    <h1>Evidence coverage</h1>
+    <p class="intro">See which taxa have direct SDI evidence, which rely on fallbacks, and what is next in the Oregon-focused research queue.</p>
+    <section id="coverage-summary" class="coverage-summary"></section>
+    <section>
+      <h2>Scored evidence records</h2>
+      <div id="scored-records" class="record-grid"></div>
+    </section>
+    <section>
+      <h2>Explicit evidence gaps</h2>
+      <div id="gap-records" class="record-grid"></div>
+    </section>
+    <section>
+      <h2>Research queue</h2>
+      <div id="research-queue" class="record-grid"></div>
+    </section>
+  </main>
+  <script type="module" src="coverage.js"></script>
+</body>
+</html>

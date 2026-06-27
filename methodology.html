@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>SDI Methodology — Spider League</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <p><a href="index.html">← Back to the rater</a></p>
+    <p class="eyebrow">SPIDER LEAGUE</p>
+    <h1>SDI methodology</h1>
+    <p class="intro">Version 0.6 · reviewed June 27, 2026</p>
+
+    <article class="card">
+      <h2>Definition</h2>
+      <p><strong>Spider Danger Index (SDI)</strong> is a 0–10 estimate of the average medical severity experienced by a healthy adult after a confirmed bite from the identified spider taxon.</p>
+      <p>It excludes encounter frequency, appearance, rarity, and the chance that an observed spider will bite.</p>
+
+      <h2>Evidence denominator</h2>
+      <p>The preferred denominator is all eligible confirmed bites in a representative study, including bites producing minimal effects. Symptomatic-only series and isolated case reports can describe possible outcomes but do not establish an average.</p>
+
+      <h2>Grouped-outcome conversion</h2>
+      <div class="meta">
+        <div><dt>No meaningful effect</dt><dd>0.0</dd></div>
+        <div><dt>Minor/local</dt><dd>2.5</dd></div>
+        <div><dt>Significant local or mild systemic</dt><dd>4.5</dd></div>
+        <div><dt>Moderate systemic</dt><dd>6.0</dd></div>
+        <div><dt>Severe</dt><dd>8.0</dd></div>
+        <div><dt>Fatal/permanently catastrophic</dt><dd>10.0</dd></div>
+      </div>
+
+      <h2>Cohort-table approximation</h2>
+      <p>Some representative cohorts report the percentage with severe pain and the percentage with systemic effects, but not whether those groups overlap. For those studies, SDI uses <code>2.5 + 2 × max(severe-pain rate, systemic-effects rate)</code>. Using the larger rate once prevents double-counting the same patients. The resulting family or genus estimate is labeled as an approximation and inherited species results are shown with low confidence.</p>
+
+      <h2>Fallback hierarchy</h2>
+      <p>Species → genus → family → general spider baseline. The app visibly labels the taxon from which the displayed score was inherited.</p>
+
+      <h2>Safety warnings</h2>
+      <p>An emergency or medical-attention warning is independent of the numerical SDI. This prevents an average-outcome score from concealing a low-frequency but potentially catastrophic outcome.</p>
+
+      <h2>Pacific Northwest calibration additions</h2>
+      <p>The regional expansion includes a 3.5 genus estimate for <i>Cheiracanthium</i>, a 3.0 low-confidence Agelenidae family estimate, a 3.5 low-confidence species estimate for <i>Araneus diadematus</i>, a 3.0 Araneidae family fallback, a 2.5 Salticidae family fallback, and a 3.0 <i>Steatoda</i> genus fallback. Species-level evidence gaps remain visible even when a higher-level score is displayed.</p>
+
+      <h2>Additional directly verified taxa</h2>
+      <p>Version 0.6 adds a low-confidence species estimate for <i>Dysdera crocata</i> from eight verified bites and a low-confidence <i>Kukulcania</i> genus estimate from five verified North American bites. Small samples remain visibly labeled.</p>
+
+      <h2>Current limitations</h2>
+      <p>The evidence database is small and disproportionately supported by Australian prospective bite studies. The general baseline is not a true worldwide average. Ratings should be revised as representative confirmed-bite evidence is added.</p>
+    </article>
+  </main>
+</body>
+</html>

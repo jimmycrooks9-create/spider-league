@@ -1,0 +1,556 @@
+[
+  {
+    "taxonName": "Araneae",
+    "taxonRank": "ORDER",
+    "sdiRaw": 2.62,
+    "sdiDisplayed": 2.5,
+    "confidence": "baseline",
+    "evidenceScope": "general spider fallback",
+    "typicalOutcome": "General fallback used when no supported species, genus, or family estimate is available.",
+    "sourceRecord": "broad Australian multi-family cohort",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 750 definite spider bites",
+        "url": "https://academic.oup.com/qjmed/article/95/11/723/1543044"
+      }
+    ]
+  },
+  {
+    "taxonName": "Agelenidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 3.1,
+    "sdiDisplayed": 3.0,
+    "confidence": "low",
+    "evidenceScope": "small Oregon multi-genus verified-bite series",
+    "typicalOutcome": "Localized pain, redness, itching, or swelling; occasional minor systemic symptoms were reported. No dermonecrosis or medically significant envenoming occurred in the qualifying Oregon series.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 10,
+    "calculationMethod": "provisional case-pattern estimate from verified bites spanning Agelenopsis, Hololena, and Eratigena",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Araneidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 2.84,
+    "sdiDisplayed": 3.0,
+    "confidence": "moderate",
+    "evidenceScope": "Australian family-level cohort estimate",
+    "typicalOutcome": "Usually localized pain and skin effects; severe pain and minor systemic symptoms occurred in minorities of the qualifying Australian orb-weaver cohort.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 157,
+    "severePainRate": 0.17,
+    "systemicEffectsRate": 0.11,
+    "calculationMethod": "cohort-table approximation: 2.5 + 2 × max(severe-pain rate, systemic-effects rate); the maximum is used because overlap was not reported",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 750 definite spider bites",
+        "url": "https://academic.oup.com/qjmed/article/95/11/723/1543044"
+      }
+    ]
+  },
+  {
+    "taxonName": "Corinnidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 2.88,
+    "sdiDisplayed": 3.0,
+    "confidence": "low",
+    "evidenceScope": "Australian family-level cohort estimate",
+    "typicalOutcome": "Predominantly localized effects in the small qualifying Australian cohort; minor systemic symptoms were reported in a minority.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 16,
+    "severePainRate": 0.06,
+    "systemicEffectsRate": 0.19,
+    "calculationMethod": "cohort-table approximation: 2.5 + 2 × max(severe-pain rate, systemic-effects rate); the maximum is used because overlap was not reported",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 750 definite spider bites",
+        "url": "https://academic.oup.com/qjmed/article/95/11/723/1543044"
+      }
+    ]
+  },
+  {
+    "taxonName": "Desidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 3.12,
+    "sdiDisplayed": 3.0,
+    "confidence": "moderate",
+    "evidenceScope": "Australian family-level cohort estimate",
+    "typicalOutcome": "Usually localized effects, with severe pain or minor systemic symptoms in a minority of the qualifying Australian intertidal and house-spider cohort.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 26,
+    "severePainRate": 0.31,
+    "systemicEffectsRate": 0.15,
+    "calculationMethod": "cohort-table approximation: 2.5 + 2 × max(severe-pain rate, systemic-effects rate); the maximum is used because overlap was not reported",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 750 definite spider bites",
+        "url": "https://academic.oup.com/qjmed/article/95/11/723/1543044"
+      }
+    ]
+  },
+  {
+    "taxonName": "Lycosidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 2.98,
+    "sdiDisplayed": 3.0,
+    "confidence": "moderate",
+    "evidenceScope": "Australian family-level cohort",
+    "typicalOutcome": "Usually brief localized pain with possible redness or swelling.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 45 definite wolf-spider bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15214620/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Salticidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 2.72,
+    "sdiDisplayed": 2.5,
+    "confidence": "moderate",
+    "evidenceScope": "Australian family-level cohort estimate",
+    "typicalOutcome": "Usually localized, short-lived pain or discomfort; severe pain and systemic symptoms were uncommon in the qualifying Australian jumping-spider cohort.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 37,
+    "severePainRate": 0.11,
+    "systemicEffectsRate": 0.08,
+    "calculationMethod": "cohort-table approximation: 2.5 + 2 × max(severe-pain rate, systemic-effects rate); the maximum is used because overlap was not reported",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 750 definite spider bites",
+        "url": "https://academic.oup.com/qjmed/article/95/11/723/1543044"
+      }
+    ]
+  },
+  {
+    "taxonName": "Sparassidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 3.04,
+    "sdiDisplayed": 3.0,
+    "confidence": "moderate",
+    "evidenceScope": "Australian family-level cohort",
+    "typicalOutcome": "Usually brief localized pain or discomfort; serious effects were not observed in the qualifying cohort.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 168 definite huntsman bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12906887/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Zodariidae",
+    "taxonRank": "FAMILY",
+    "sdiRaw": 3.3,
+    "sdiDisplayed": 3.5,
+    "confidence": "low",
+    "evidenceScope": "Australian family-level cohort estimate",
+    "typicalOutcome": "Localized pain was sometimes severe in the small qualifying Australian ant-spider cohort; minor systemic symptoms occurred in a minority.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 15,
+    "severePainRate": 0.4,
+    "systemicEffectsRate": 0.2,
+    "calculationMethod": "cohort-table approximation: 2.5 + 2 × max(severe-pain rate, systemic-effects rate); the maximum is used because overlap was not reported",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 750 definite spider bites",
+        "url": "https://academic.oup.com/qjmed/article/95/11/723/1543044"
+      }
+    ]
+  },
+  {
+    "taxonName": "Atrax",
+    "taxonRank": "GENUS",
+    "sdiRaw": 3.46,
+    "sdiDisplayed": 3.5,
+    "confidence": "low",
+    "evidenceScope": "genus fallback derived from historical Sydney funnel-web evidence",
+    "typicalOutcome": "A minority of bites may cause rapid, life-threatening systemic envenoming.",
+    "safetyLevel": "emergency",
+    "safetyMessage": "Never handle. A suspected funnel-web bite is a medical emergency.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Systematic review of recorded funnel-web bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15850438/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Cheiracanthium",
+    "taxonRank": "GENUS",
+    "sdiRaw": 3.5,
+    "sdiDisplayed": 3.5,
+    "confidence": "moderate",
+    "evidenceScope": "genus estimate from 20 verified bites in the United States and Australia",
+    "typicalOutcome": "Immediate localized pain, often with redness or swelling; pain is sometimes severe but usually self-limited. Minor systemic symptoms occurred in a small minority, and no necrosis occurred in the qualifying cohort.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 20,
+    "calculationMethod": "fixed grouped-outcome conversion: 10 severe-pain cases at 4.5 and 10 other local-effect cases at 2.5",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified Cheiracanthium bites in the United States and Australia (20 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16760517/"
+      },
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Kukulcania",
+    "taxonRank": "GENUS",
+    "sdiRaw": 2.5,
+    "sdiDisplayed": 2.5,
+    "confidence": "low",
+    "evidenceScope": "genus estimate from five verified North American bites",
+    "typicalOutcome": "Minor, self-limited local effects. The verified series did not document serious systemic illness or tissue necrosis.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 5,
+    "calculationMethod": "all five verified bites mapped to the minor/local category",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified envenomations by crevice weaver spiders (five cases)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8789574/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Lampona",
+    "taxonRank": "GENUS",
+    "sdiRaw": 3.38,
+    "sdiDisplayed": 3.5,
+    "confidence": "moderate",
+    "evidenceScope": "genus estimate supported by prospective cohorts of Lampona cylindrata and Lampona murina",
+    "typicalOutcome": "Localized pain and redness; a substantial minority of verified bites produced a painful or irritating lesion lasting several days. No necrotic ulcers occurred in the qualifying cohort.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 130,
+    "calculationMethod": "fixed grouped-outcome conversion from two identified Lampona species",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 130 definite white-tail bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12914510/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Latrodectus",
+    "taxonRank": "GENUS",
+    "sdiRaw": 4.78,
+    "sdiDisplayed": 5.0,
+    "confidence": "low",
+    "evidenceScope": "genus fallback derived primarily from redback evidence",
+    "typicalOutcome": "Potential for prolonged severe pain, muscle cramping, and systemic symptoms.",
+    "safetyLevel": "medical-attention",
+    "safetyMessage": "A suspected widow-spider bite with severe or spreading symptoms warrants prompt medical advice.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective cohort of formally identified redback bites",
+        "url": "https://www.mja.com.au/journal/2003/179/2/latrodectism-prospective-cohort-study-bites-formally-identified-redback-spiders"
+      }
+    ]
+  },
+  {
+    "taxonName": "Steatoda",
+    "taxonRank": "GENUS",
+    "sdiRaw": 3.1,
+    "sdiDisplayed": 3.0,
+    "confidence": "moderate",
+    "evidenceScope": "genus estimate from 23 definite Steatoda bites",
+    "typicalOutcome": "Pain is expected and can persist for hours; severe pain and minor systemic symptoms such as nausea, headache, lethargy, or malaise occurred in minorities. Effects were generally less severe than widow-spider envenoming.",
+    "safetyLevel": "medical-attention",
+    "safetyMessage": "Seek medical advice for severe, spreading, or persistent symptoms after a suspected false-widow bite.",
+    "eligibleBiteCount": 23,
+    "severePainRate": 0.26,
+    "systemicEffectsRate": 0.3,
+    "calculationMethod": "cohort-table approximation: 2.5 + 2 × max(26% severe pain, 30% systemic effects)",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective cohort of 28 definite non-widow theridiid bites",
+        "url": "https://doi.org/10.1081/CLT-120025346"
+      }
+    ]
+  },
+  {
+    "taxonName": "Araneus diadematus",
+    "taxonRank": "SPECIES",
+    "sdiRaw": 3.7,
+    "sdiDisplayed": 3.5,
+    "confidence": "low",
+    "evidenceScope": "small Oregon species series of five verified bites",
+    "typicalOutcome": "Localized pain, redness, itching, or swelling, sometimes with mild short-lived symptoms such as headache, nausea, anxiety, or muscle cramping. No serious outcome occurred in the five verified Oregon cases.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 5,
+    "calculationMethod": "fixed case-pattern conversion from five published verified bites",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Atrax robustus",
+    "taxonRank": "SPECIES",
+    "sdiRaw": 3.46,
+    "sdiDisplayed": 3.5,
+    "confidence": "low-moderate",
+    "evidenceScope": "historical Sydney funnel-web species complex",
+    "typicalOutcome": "Most confirmed bites in the least-biased historical sample were local or minor, but a minority caused rapid severe envenoming.",
+    "safetyLevel": "emergency",
+    "safetyMessage": "Never handle. A suspected funnel-web bite is a medical emergency.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Systematic review of recorded funnel-web bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15850438/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Cheiracanthium mildei",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species-specific average not independently established; a supported genus estimate is available",
+    "typicalOutcome": "Verified Oregon cases support localized pain, redness, swelling, and occasional minor systemic symptoms, but the available species series is too small for a stable independent average.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      },
+      {
+        "label": "Verified Cheiracanthium bites in the United States and Australia (20 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16760517/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Dysdera crocata",
+    "taxonRank": "SPECIES",
+    "sdiRaw": 3.25,
+    "sdiDisplayed": 3.5,
+    "confidence": "low",
+    "evidenceScope": "species estimate from eight verified bites",
+    "typicalOutcome": "Localized pain, redness, swelling, or itching; pain was sometimes described as severe but was typically brief, with a median duration of about 40 minutes.",
+    "safetyLevel": "none",
+    "eligibleBiteCount": 8,
+    "calculationMethod": "fixed grouped-outcome conversion: five minor/local cases at 2.5 and three severe-local-pain cases at 4.5",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified bites by the woodlouse spider, Dysdera crocata",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16574180/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Eratigena agrestis",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species average not established; one verified Oregon bite and a family fallback are available",
+    "typicalOutcome": "The single verified Oregon hobo-spider bite caused pain, redness, and calf twitching that resolved within about 12 hours; one case cannot establish an average.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Eratigena duellica",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species average not established; one verified Oregon bite and a family fallback are available",
+    "typicalOutcome": "The single verified Oregon giant-house-spider bite caused local pain, itching, and redness and resolved within about a day; one case cannot establish an average.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Kukulcania hibernalis",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species-specific average not established; a supported Kukulcania genus estimate is available",
+    "typicalOutcome": "Southern-house-spider bites are represented by the broader crevice-weaver evidence, but the current verified series is too small for a stable independent species average.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified envenomations by crevice weaver spiders (five cases)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8789574/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Lampona cylindrata",
+    "taxonRank": "SPECIES",
+    "sdiRaw": 3.38,
+    "sdiDisplayed": 3.5,
+    "confidence": "moderate",
+    "evidenceScope": "species",
+    "typicalOutcome": "Localized pain and redness; some bites produce an irritating lesion lasting several days.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 130 definite white-tail bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12914510/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Lampona murina",
+    "taxonRank": "SPECIES",
+    "sdiRaw": 3.38,
+    "sdiDisplayed": 3.5,
+    "confidence": "moderate",
+    "evidenceScope": "species",
+    "typicalOutcome": "Localized pain and redness; some bites produce an irritating lesion lasting several days.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective study of 130 definite white-tail bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12914510/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Latrodectus hasselti",
+    "taxonRank": "SPECIES",
+    "sdiRaw": 4.78,
+    "sdiDisplayed": 5.0,
+    "confidence": "moderate",
+    "evidenceScope": "species",
+    "typicalOutcome": "Often prolonged severe pain; systemic effects occur in a meaningful minority.",
+    "safetyLevel": "medical-attention",
+    "safetyMessage": "A suspected widow-spider bite with severe or spreading symptoms warrants prompt medical advice.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective cohort of formally identified redback bites",
+        "url": "https://www.mja.com.au/journal/2003/179/2/latrodectism-prospective-cohort-study-bites-formally-identified-redback-spiders"
+      }
+    ]
+  },
+  {
+    "taxonName": "Latrodectus hesperus",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species average not established; genus fallback derived primarily from redback evidence",
+    "typicalOutcome": "Western black-widow bites can cause latrodectism, but the current benchmark lacks a representative all-bite species cohort for an independent average.",
+    "safetyLevel": "medical-attention",
+    "safetyMessage": "A suspected widow-spider bite with severe or spreading pain, muscle cramping, or systemic symptoms warrants prompt medical advice.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      },
+      {
+        "label": "Prospective cohort of formally identified redback bites used for the genus fallback",
+        "url": "https://www.mja.com.au/journal/2003/179/2/latrodectism-prospective-cohort-study-bites-formally-identified-redback-spiders"
+      }
+    ]
+  },
+  {
+    "taxonName": "Loxosceles reclusa",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species average not established",
+    "typicalOutcome": "Available evidence is not representative enough to establish the average confirmed-bite outcome.",
+    "safetyLevel": "medical-attention",
+    "safetyMessage": "A suspected recluse bite with worsening pain, spreading skin changes, fever, or other systemic symptoms warrants medical evaluation.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Clinical review of brown-recluse bites",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16004015/"
+      },
+      {
+        "label": "Review of reported brown-recluse diagnoses",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14505942/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Phidippus audax",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species average not established; only sparse verified jumping-spider evidence is available",
+    "typicalOutcome": "Available verified jumping-spider cases describe localized pain, itching, redness, or swelling with short recovery, but they are too sparse for a species-specific average.",
+    "safetyLevel": "none",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Verified spider bites in Oregon (33 cases)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/"
+      }
+    ]
+  },
+  {
+    "taxonName": "Steatoda grossa",
+    "taxonRank": "SPECIES",
+    "sdiRaw": null,
+    "sdiDisplayed": null,
+    "confidence": "insufficient",
+    "evidenceScope": "species-specific average not established; a supported Steatoda genus estimate is available",
+    "typicalOutcome": "Cupboard-spider bites are represented within the broader Steatoda evidence, but the available data do not support a stable independent species average.",
+    "safetyLevel": "medical-attention",
+    "safetyMessage": "Seek medical advice for severe, spreading, or persistent symptoms after a suspected false-widow bite.",
+    "reviewedDate": "2026-06-27",
+    "sources": [
+      {
+        "label": "Prospective cohort of 28 definite non-widow theridiid bites",
+        "url": "https://doi.org/10.1081/CLT-120025346"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "spider-league-sdi",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/core.test.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "check": "npm run validate && npm test && node --check app.js && node --check core.js && node --check service-worker.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

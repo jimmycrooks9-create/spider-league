@@ -1,0 +1,326 @@
+[
+  {
+    "alias": "american house spider",
+    "scientificName": "Parasteatoda tepidariorum",
+    "rank": "SPECIES",
+    "commonName": "Common house spider"
+  },
+  {
+    "alias": "black widow",
+    "scientificName": "Latrodectus",
+    "rank": "GENUS",
+    "commonName": "black widow"
+  },
+  {
+    "alias": "black widow spider",
+    "scientificName": "Latrodectus",
+    "rank": "GENUS",
+    "commonName": "black widow spider"
+  },
+  {
+    "alias": "bold jumping spider",
+    "commonName": "Bold Jumping Spider",
+    "scientificName": "Phidippus audax",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "brown recluse",
+    "scientificName": "Loxosceles reclusa",
+    "rank": "SPECIES",
+    "commonName": "brown recluse"
+  },
+  {
+    "alias": "brown recluse spider",
+    "scientificName": "Loxosceles reclusa",
+    "rank": "SPECIES",
+    "commonName": "brown recluse spider"
+  },
+  {
+    "alias": "cellar spider",
+    "commonName": "Long-bodied Cellar Spider",
+    "scientificName": "Pholcus phalangioides",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "common house spider",
+    "scientificName": "Parasteatoda tepidariorum",
+    "rank": "SPECIES",
+    "commonName": "Common house spider"
+  },
+  {
+    "alias": "crab spider",
+    "scientificName": "Thomisidae",
+    "rank": "FAMILY",
+    "commonName": "Crab spider"
+  },
+  {
+    "alias": "crevice weaver",
+    "scientificName": "Kukulcania",
+    "rank": "GENUS"
+  },
+  {
+    "alias": "crevice weaver spider",
+    "scientificName": "Kukulcania",
+    "rank": "GENUS"
+  },
+  {
+    "alias": "cross orb-weaver",
+    "commonName": "Cross Orbweaver",
+    "scientificName": "Araneus diadematus",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "cross orbweaver",
+    "commonName": "Cross Orbweaver",
+    "scientificName": "Araneus diadematus",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "cupboard spider",
+    "scientificName": "Steatoda grossa",
+    "rank": "SPECIES",
+    "commonName": "Cupboard spider"
+  },
+  {
+    "alias": "daddy longlegs spider",
+    "commonName": "Long-bodied Cellar Spider",
+    "scientificName": "Pholcus phalangioides",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "european garden spider",
+    "scientificName": "Araneus diadematus",
+    "rank": "SPECIES",
+    "commonName": "Cross Orbweaver"
+  },
+  {
+    "alias": "false widow",
+    "scientificName": "Steatoda",
+    "rank": "GENUS",
+    "commonName": "False widow spider"
+  },
+  {
+    "alias": "false widow spider",
+    "scientificName": "Steatoda",
+    "rank": "GENUS",
+    "commonName": "False widow spider"
+  },
+  {
+    "alias": "flower spider",
+    "scientificName": "Misumena vatia",
+    "rank": "SPECIES",
+    "commonName": "Goldenrod crab spider"
+  },
+  {
+    "alias": "funnel weaver",
+    "scientificName": "Agelenidae",
+    "rank": "FAMILY",
+    "commonName": "Funnel Weaver"
+  },
+  {
+    "alias": "funnel weaver spider",
+    "scientificName": "Agelenidae",
+    "rank": "FAMILY",
+    "commonName": "Funnel Weaver"
+  },
+  {
+    "alias": "garden cross spider",
+    "scientificName": "Araneus diadematus",
+    "rank": "SPECIES",
+    "commonName": "Cross Orbweaver"
+  },
+  {
+    "alias": "giant house spider",
+    "commonName": "Giant House Spider",
+    "scientificName": "Eratigena duellica",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "goldenrod crab spider",
+    "scientificName": "Misumena vatia",
+    "rank": "SPECIES",
+    "commonName": "Goldenrod crab spider"
+  },
+  {
+    "alias": "grass spider",
+    "scientificName": "Agelenopsis",
+    "rank": "GENUS",
+    "commonName": "Grass spider"
+  },
+  {
+    "alias": "grass spiders",
+    "scientificName": "Agelenopsis",
+    "rank": "GENUS",
+    "commonName": "Grass spiders"
+  },
+  {
+    "alias": "hobo spider",
+    "commonName": "Hobo Spider",
+    "scientificName": "Eratigena agrestis",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "huntsman spider",
+    "scientificName": "Sparassidae",
+    "rank": "FAMILY",
+    "commonName": "huntsman spider"
+  },
+  {
+    "alias": "huntsman spiders",
+    "scientificName": "Sparassidae",
+    "rank": "FAMILY",
+    "commonName": "huntsman spiders"
+  },
+  {
+    "alias": "jumping spider",
+    "scientificName": "Salticidae",
+    "rank": "FAMILY",
+    "commonName": "Jumping spider"
+  },
+  {
+    "alias": "jumping spiders",
+    "scientificName": "Salticidae",
+    "rank": "FAMILY",
+    "commonName": "Jumping spiders"
+  },
+  {
+    "alias": "northern yellow sac spider",
+    "scientificName": "Cheiracanthium mildei",
+    "rank": "SPECIES",
+    "commonName": "Northern Yellow Sac Spider"
+  },
+  {
+    "alias": "orb weaver",
+    "scientificName": "Araneidae",
+    "rank": "FAMILY",
+    "commonName": "Orb-weaver spider"
+  },
+  {
+    "alias": "orb weaver spider",
+    "scientificName": "Araneidae",
+    "rank": "FAMILY",
+    "commonName": "Orb-weaver spider"
+  },
+  {
+    "alias": "orb-weaver",
+    "scientificName": "Araneidae",
+    "rank": "FAMILY",
+    "commonName": "Orb-weaver spider"
+  },
+  {
+    "alias": "oregon mouse spider",
+    "scientificName": "Scotophaeus blackwalli",
+    "rank": "SPECIES",
+    "commonName": "Mouse spider"
+  },
+  {
+    "alias": "redback",
+    "scientificName": "Latrodectus hasselti",
+    "rank": "SPECIES",
+    "commonName": "redback"
+  },
+  {
+    "alias": "redback spider",
+    "scientificName": "Latrodectus hasselti",
+    "rank": "SPECIES",
+    "commonName": "redback spider"
+  },
+  {
+    "alias": "southern black widow",
+    "scientificName": "Latrodectus mactans",
+    "rank": "SPECIES",
+    "commonName": "southern black widow"
+  },
+  {
+    "alias": "southern house spider",
+    "scientificName": "Kukulcania hibernalis",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "spider",
+    "scientificName": "Araneae",
+    "rank": "ORDER",
+    "commonName": "spider"
+  },
+  {
+    "alias": "sydney funnel web",
+    "scientificName": "Atrax robustus",
+    "rank": "SPECIES",
+    "commonName": "sydney funnel web"
+  },
+  {
+    "alias": "sydney funnel-web",
+    "scientificName": "Atrax robustus",
+    "rank": "SPECIES",
+    "commonName": "sydney funnel-web"
+  },
+  {
+    "alias": "western black widow",
+    "scientificName": "Latrodectus hesperus",
+    "rank": "SPECIES",
+    "commonName": "Western Black Widow"
+  },
+  {
+    "alias": "western black widow spider",
+    "scientificName": "Latrodectus hesperus",
+    "rank": "SPECIES",
+    "commonName": "Western Black Widow"
+  },
+  {
+    "alias": "white tailed spider",
+    "scientificName": "Lampona",
+    "rank": "GENUS",
+    "commonName": "White-tailed spider"
+  },
+  {
+    "alias": "white tailed spiders",
+    "scientificName": "Lampona",
+    "rank": "GENUS",
+    "commonName": "White-tailed spiders"
+  },
+  {
+    "alias": "white-tail spider",
+    "scientificName": "Lampona",
+    "rank": "GENUS",
+    "commonName": "White-tailed spider"
+  },
+  {
+    "alias": "white-tail spiders",
+    "scientificName": "Lampona",
+    "rank": "GENUS",
+    "commonName": "White-tailed spiders"
+  },
+  {
+    "alias": "wolf spider",
+    "scientificName": "Lycosidae",
+    "rank": "FAMILY",
+    "commonName": "wolf spider"
+  },
+  {
+    "alias": "wolf spiders",
+    "scientificName": "Lycosidae",
+    "rank": "FAMILY",
+    "commonName": "wolf spiders"
+  },
+  {
+    "alias": "woodlouse hunter",
+    "scientificName": "Dysdera crocata",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "woodlouse hunting spider",
+    "scientificName": "Dysdera crocata",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "woodlouse spider",
+    "scientificName": "Dysdera crocata",
+    "rank": "SPECIES"
+  },
+  {
+    "alias": "yellow sac spider",
+    "scientificName": "Cheiracanthium mildei",
+    "rank": "SPECIES",
+    "commonName": "Northern Yellow Sac Spider"
+  }
+]

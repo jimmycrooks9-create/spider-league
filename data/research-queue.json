@@ -1,0 +1,142 @@
+[
+  {
+    "taxonName": "Latrodectus hesperus",
+    "rank": "SPECIES",
+    "commonName": "Western black widow",
+    "priority": "high",
+    "status": "species average missing; genus fallback available",
+    "reason": "Potentially medically important and present in Oregon; direct representative species evidence would materially improve the app.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  },
+  {
+    "taxonName": "Eratigena agrestis",
+    "rank": "SPECIES",
+    "commonName": "Hobo spider",
+    "priority": "high",
+    "status": "one verified Oregon bite; family fallback available",
+    "reason": "One of the spiders most often submitted for identification in Oregon and commonly confused with giant house spiders.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  },
+  {
+    "taxonName": "Eratigena duellica",
+    "rank": "SPECIES",
+    "commonName": "Giant house spider",
+    "priority": "high",
+    "status": "one verified Oregon bite; family fallback available",
+    "reason": "Frequently encountered in Oregon homes and commonly confused with the hobo spider.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  },
+  {
+    "taxonName": "Pholcus phalangioides",
+    "rank": "SPECIES",
+    "commonName": "Long-bodied cellar spider",
+    "priority": "medium",
+    "status": "general baseline only",
+    "reason": "A common indoor spider in Oregon; direct verified-bite evidence would improve a frequently searched result.",
+    "occurrenceSources": [
+      {
+        "label": "OSU Solve Pest Problems — Spiders",
+        "url": "https://solvepestproblems.oregonstate.edu/insects-spiders/spiders"
+      }
+    ]
+  },
+  {
+    "taxonName": "Phidippus audax",
+    "rank": "SPECIES",
+    "commonName": "Bold jumping spider",
+    "priority": "medium",
+    "status": "species average missing; Salticidae family fallback available",
+    "reason": "Jumping spiders are common indoor and outdoor observations, but current verified evidence is sparse.",
+    "occurrenceSources": [
+      {
+        "label": "OSU Solve Pest Problems — Spiders",
+        "url": "https://solvepestproblems.oregonstate.edu/insects-spiders/spiders"
+      }
+    ]
+  },
+  {
+    "taxonName": "Steatoda grossa",
+    "rank": "SPECIES",
+    "commonName": "Cupboard spider / false widow",
+    "priority": "medium",
+    "status": "species average missing; Steatoda genus fallback available",
+    "reason": "False widows are commonly found around residences and can be mistaken for widow spiders.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  },
+  {
+    "taxonName": "Parasteatoda tepidariorum",
+    "rank": "SPECIES",
+    "commonName": "Common house spider",
+    "priority": "medium",
+    "status": "general baseline only",
+    "reason": "A frequent indoor cobweb spider and likely common-name search target.",
+    "occurrenceSources": [
+      {
+        "label": "OSU Extension — indoor spiders",
+        "url": "https://extension.oregonstate.edu/ask-extension/featured/what-are-all-these-webs-are-showing-inside-my-house"
+      }
+    ]
+  },
+  {
+    "taxonName": "Misumena vatia",
+    "rank": "SPECIES",
+    "commonName": "Goldenrod crab spider",
+    "priority": "low",
+    "status": "general baseline only",
+    "reason": "A recognizable flower-associated spider listed among common Oregon spiders.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  },
+  {
+    "taxonName": "Scotophaeus blackwalli",
+    "rank": "SPECIES",
+    "commonName": "Oregon mouse spider",
+    "priority": "low",
+    "status": "general baseline only",
+    "reason": "A common residential spider in Oregon whose common name is easily confused with Australian mouse spiders.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  },
+  {
+    "taxonName": "Agelenopsis",
+    "rank": "GENUS",
+    "commonName": "Grass spiders",
+    "priority": "low",
+    "status": "Agelenidae family fallback available",
+    "reason": "Common Oregon funnel weavers; genus-level evidence would improve the current family fallback.",
+    "occurrenceSources": [
+      {
+        "label": "Oregon Department of Agriculture — Oregon spiders",
+        "url": "https://www.oregon.gov/oda/ippm/Pages/oregon-spiders.aspx"
+      }
+    ]
+  }
+]
