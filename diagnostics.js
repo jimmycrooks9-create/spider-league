@@ -1,3 +1,4 @@
+import { isFirebaseConfigured } from "./firebase-config.js";
 const resultsEl = document.querySelector("#diagnostic-results");
 const summaryEl = document.querySelector("#diagnostic-summary");
 const runButton = document.querySelector("#run-diagnostics");
@@ -60,6 +61,12 @@ async function checkGBIF() {
   return card("GBIF / Catalogue of Life validation", "pass", `${accepted.canonicalName ?? accepted.name} validated in order Araneae.`, duration);
 }
 
+function checkFirebase() {
+  return isFirebaseConfigured()
+    ? card("Firebase league database", "pass", "Firebase configuration is present. Use the Admin page to verify authentication and rules.")
+    : card("Firebase league database", "warn", "Not connected yet. The SDI rater works, but official submissions and standings require Firebase setup.");
+}
+
 async function checkServiceWorker() {
   if (!("serviceWorker" in navigator)) return card("Install/offline support", "warn", "This browser does not support service workers.");
   const registration = await navigator.serviceWorker.getRegistration();
@@ -75,6 +82,7 @@ async function run() {
     ["Bundled data", checkLocalData],
     ["iNaturalist name discovery", checkINaturalist],
     ["GBIF taxonomy validation", checkGBIF],
+    ["Firebase league database", checkFirebase],
     ["Install/offline support", checkServiceWorker]
   ];
   let failures = 0;

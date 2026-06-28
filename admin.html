@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>Official submissions — Spider League</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <nav class="site-nav" aria-label="Spider League pages">
+      <a href="index.html">SDI rater</a>
+      <a href="league.html">League standings</a>
+      <a href="admin.html" aria-current="page">Admin</a>
+    </nav>
+
+    <p class="eyebrow">SPIDER LEAGUE ADMIN</p>
+    <h1>Official submissions</h1>
+    <p class="intro">Approve an observation by entering the observer, observation date, and spider. The SDI is resolved automatically and saved as a score snapshot.</p>
+
+    <section id="setup-panel" class="card setup-card" hidden>
+      <h2>Connect Firebase first</h2>
+      <p>The submission and leaderboard pages are ready, but they need a free Firebase project for shared storage and admin login.</p>
+      <p><a href="firebase-setup.html">Open the exact setup instructions</a></p>
+    </section>
+
+    <section id="auth-panel" class="card" hidden>
+      <h2>Admin sign in</h2>
+      <form id="sign-in-form">
+        <label for="admin-email">Email</label>
+        <input id="admin-email" type="email" autocomplete="username" required>
+        <label for="admin-password" class="stacked-label">Password</label>
+        <input id="admin-password" type="password" autocomplete="current-password" required>
+        <button type="submit" class="form-submit">Sign in</button>
+      </form>
+      <p id="auth-status" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="admin-panel" hidden>
+      <div class="admin-session">
+        <p>Signed in as <strong id="signed-in-email"></strong></p>
+        <button id="sign-out" type="button" class="secondary-button">Sign out</button>
+      </div>
+
+      <form id="submission-form" class="card submission-form" novalidate>
+        <h2>Add an official observation</h2>
+
+        <label for="observer-name">Observer name</label>
+        <input id="observer-name" type="text" maxlength="60" autocomplete="name" required>
+
+        <label for="observed-date" class="stacked-label">Date observed</label>
+        <input id="observed-date" type="date" required>
+
+        <label for="submission-spider" class="stacked-label">Spider</label>
+        <div class="search-row">
+          <input id="submission-spider" type="search" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="e.g., western black widow" required>
+          <button id="resolve-spider" type="button">Resolve spider</button>
+        </div>
+
+        <p id="lookup-status" class="status" role="status" aria-live="polite"></p>
+        <section id="submission-choices" class="choices" aria-label="Possible spider matches"></section>
+        <section id="submission-preview" aria-live="polite"></section>
+
+        <button id="add-submission" type="submit" class="form-submit" disabled>Add official submission</button>
+        <p id="submission-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+
+      <section class="admin-list-section">
+        <div class="section-heading-row">
+          <h2>Manage official submissions</h2>
+          <a href="league.html">View public standings</a>
+        </div>
+        <p id="admin-list-status" class="status" role="status" aria-live="polite"></p>
+        <div id="admin-submission-list" class="admin-submission-list"></div>
+      </section>
+    </section>
+  </main>
+  <script type="module" src="admin.js"></script>
+</body>
+</html>

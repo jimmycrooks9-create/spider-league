@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>Firebase setup — Spider League</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <nav class="site-nav" aria-label="Spider League pages">
+      <a href="index.html">SDI rater</a>
+      <a href="league.html">League standings</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+    <p class="eyebrow">SPIDER LEAGUE</p>
+    <h1>Connect the league database</h1>
+    <p class="intro">These steps enable shared standings and restrict official submissions to your admin account. The setup stays on Firebase's no-cost Spark plan.</p>
+
+    <article class="card setup-steps">
+      <h2>1. Create the Firebase project</h2>
+      <ol>
+        <li>Open the Firebase console and select <strong>Create a project</strong>.</li>
+        <li>Name it <code>spider-league</code>.</li>
+        <li>Leave Google Analytics off; it is not needed.</li>
+        <li>Remain on the no-cost <strong>Spark</strong> plan and do not enable billing.</li>
+      </ol>
+
+      <h2>2. Register the website</h2>
+      <ol>
+        <li>On the project overview, select the Web icon (<code>&lt;/&gt;</code>).</li>
+        <li>Use <code>Spider League Web</code> as the app nickname.</li>
+        <li>Do not enable Firebase Hosting; GitHub Pages remains the host.</li>
+        <li>Select <strong>Register app</strong> and keep the displayed <code>firebaseConfig</code> object available.</li>
+        <li>In GitHub, edit <code>firebase-config.js</code> and replace the four placeholder values with <code>apiKey</code>, <code>authDomain</code>, <code>projectId</code>, and <code>appId</code>.</li>
+        <li>Commit the edit to <code>main</code>.</li>
+      </ol>
+
+      <h2>3. Create Firestore</h2>
+      <ol>
+        <li>Open <strong>Build → Firestore Database</strong> and select <strong>Create database</strong>.</li>
+        <li>Choose <strong>Standard edition</strong> and <strong>Production mode</strong>.</li>
+        <li>Choose a nearby U.S. region; <code>us-west1</code> is sensible for Portland when offered.</li>
+        <li>Open the <strong>Rules</strong> tab.</li>
+        <li>Copy all of <code>firestore.rules</code> from the GitHub repository into the editor and select <strong>Publish</strong>.</li>
+      </ol>
+
+      <h2>4. Create the admin login</h2>
+      <ol>
+        <li>Open <strong>Build → Authentication</strong> and select <strong>Get started</strong>.</li>
+        <li>Enable <strong>Email/Password</strong> under Sign-in method.</li>
+        <li>Open <strong>Users</strong>, select <strong>Add user</strong>, and create your login.</li>
+        <li>Copy the user's <strong>User UID</strong>.</li>
+      </ol>
+
+      <h2>5. Grant admin access</h2>
+      <ol>
+        <li>Return to <strong>Firestore Database → Data</strong>.</li>
+        <li>Create a collection named <code>admins</code>.</li>
+        <li>Use the copied User UID as the document ID.</li>
+        <li>Add a boolean field named <code>enabled</code> with the value <code>true</code>, then save.</li>
+      </ol>
+
+      <h2>6. Authorize the site</h2>
+      <ol>
+        <li>Open <strong>Authentication → Settings → Authorized domains</strong>.</li>
+        <li>Add <code>jimmycrooks9-create.github.io</code> if it is not already listed.</li>
+      </ol>
+
+      <h2>7. Test it</h2>
+      <ol>
+        <li>Open <a href="admin.html"><code>admin.html</code></a> and sign in.</li>
+        <li>Add one test observation.</li>
+        <li>Open <a href="league.html"><code>league.html</code></a> and confirm it appears.</li>
+      </ol>
+
+      <p class="setup-note"><strong>Cost guardrail:</strong> do not attach a billing account. The Spark plan's no-cost Firestore allowance is far beyond the expected use of a small friend-group league.</p>
+    </article>
+  </main>
+</body>
+</html>

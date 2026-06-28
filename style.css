@@ -89,3 +89,172 @@ footer { margin-top: 16px; padding-top: 20px; border-top: 1px solid #292929; col
 .diagnostic-card h2 { font-size: 1.1rem; }
 .diagnostic-notes { margin-top: 24px; }
 @media (max-width: 620px) { .diagnostic-grid { grid-template-columns: 1fr; } }
+
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 34px;
+}
+.site-nav a {
+  padding: 8px 11px;
+  border: 1px solid #333;
+  border-radius: 999px;
+  color: #bbb;
+  text-decoration: none;
+  font-size: .88rem;
+  font-weight: 700;
+}
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: #fff;
+  border-color: #777;
+  background: #1b1b1b;
+}
+.wide-shell { width: min(980px, calc(100% - 32px)); }
+.league-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0 30px;
+}
+.league-summary div {
+  display: grid;
+  gap: 5px;
+  padding: 18px;
+  border: 1px solid #333;
+  border-radius: 14px;
+  background: #171717;
+}
+.league-summary strong { font-size: 2rem; }
+.league-summary span { color: #aaa; }
+.leaderboard-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #333;
+  border-radius: 18px;
+  background: #171717;
+}
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #2e2e2e;
+}
+.leaderboard-table th {
+  color: #999;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.leaderboard-table tbody tr:last-child td { border-bottom: 0; }
+.leaderboard-table td small { display: block; margin-top: 4px; color: #999; }
+.rank-badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #eee;
+  color: #111;
+  font-weight: 900;
+}
+.table-score { font-size: 1.45rem; font-weight: 900; }
+.empty-state { text-align: center; color: #bbb; }
+.setup-card { border-left: 4px solid #aaa; }
+.stacked-label { margin-top: 20px; }
+.form-submit { margin-top: 22px; }
+.form-submit:disabled,
+button:disabled { opacity: .45; cursor: not-allowed; }
+.admin-session,
+.section-heading-row,
+.admin-submission-row,
+.submission-preview-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.admin-session { margin: 0 0 18px; }
+.admin-session p { margin: 0; }
+.submission-form { margin-top: 22px; }
+.submission-preview-card {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid #444;
+  border-radius: 14px;
+  background: #101010;
+}
+.submission-preview-card h3 { margin: 0 0 5px; }
+.submission-preview-card p { margin-bottom: 0; }
+.preview-score { font-size: 2.5rem; }
+.compact-fallback { margin-top: 10px !important; padding: 8px 10px; }
+.admin-list-section { margin-top: 40px; }
+.admin-submission-list { display: grid; gap: 10px; }
+.admin-submission-row {
+  padding: 15px 16px;
+  border: 1px solid #333;
+  border-radius: 14px;
+  background: #171717;
+}
+.admin-submission-row small { display: block; margin-top: 4px; color: #999; }
+.admin-row-actions { display: flex; align-items: center; gap: 12px; }
+.danger-button {
+  padding: 8px 10px;
+  border: 1px solid #704848;
+  background: #291b1b;
+  color: #ffdede;
+}
+.danger-button:hover { background: #372020; }
+
+@media (max-width: 700px) {
+  .league-summary { grid-template-columns: 1fr; }
+  .leaderboard-table-wrap { border: 0; background: transparent; overflow: visible; }
+  .leaderboard-table thead { display: none; }
+  .leaderboard-table,
+  .leaderboard-table tbody,
+  .leaderboard-table tr,
+  .leaderboard-table td { display: block; width: 100%; }
+  .leaderboard-table tr {
+    margin-bottom: 12px;
+    padding: 14px;
+    border: 1px solid #333;
+    border-radius: 16px;
+    background: #171717;
+  }
+  .leaderboard-table td {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 9px 0;
+    border-bottom: 1px solid #292929;
+    text-align: right;
+  }
+  .leaderboard-table td:last-child { border-bottom: 0; }
+  .leaderboard-table td::before {
+    content: attr(data-label);
+    color: #888;
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-align: left;
+  }
+  .leaderboard-table td small { text-align: right; }
+  .admin-session,
+  .section-heading-row,
+  .admin-submission-row,
+  .submission-preview-card { align-items: flex-start; }
+  .admin-submission-row { flex-direction: column; }
+  .admin-row-actions { width: 100%; justify-content: space-between; }
+}
+
+.setup-steps h2 { margin-top: 32px; }
+.setup-steps h2:first-child { margin-top: 0; }
+.setup-steps li { margin: 9px 0; line-height: 1.5; }
+.setup-steps code { padding: 2px 5px; border-radius: 5px; background: #292929; }
+.setup-note { margin-top: 32px !important; padding: 14px; border-left: 4px solid #aaa; background: #242424; }

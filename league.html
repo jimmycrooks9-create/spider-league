@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>League standings — Spider League</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell wide-shell">
+    <nav class="site-nav" aria-label="Spider League pages">
+      <a href="index.html">SDI rater</a>
+      <a href="league.html" aria-current="page">League standings</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+
+    <p class="eyebrow">SPIDER LEAGUE</p>
+    <h1>Official standings</h1>
+    <p class="intro">Approved observations ranked by Spider Danger Index. Equal SDI scores share a rank; earlier observations appear first.</p>
+
+    <section class="league-summary" aria-label="League summary">
+      <div><strong id="submission-count">—</strong><span>official submissions</span></div>
+      <div><strong id="observer-count">—</strong><span>observers</span></div>
+      <div><strong id="top-score">—</strong><span>top SDI</span></div>
+    </section>
+
+    <p id="league-status" class="status" role="status" aria-live="polite">Loading standings…</p>
+    <section id="leaderboard" aria-live="polite"></section>
+
+    <footer>
+      <p>Scores are snapshots of the SDI assigned when each observation was approved.</p>
+    </footer>
+  </main>
+  <script type="module" src="league.js"></script>
+</body>
+</html>

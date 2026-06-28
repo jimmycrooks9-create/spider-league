@@ -56,3 +56,18 @@ When a qualifying cohort reports severe-pain and systemic-effect percentages wit
 ## Diagnostics
 
 Open `diagnostics.html` after deployment to test bundled data, iNaturalist common-name discovery, GBIF/Catalogue of Life validation, and install/offline support in the browser actually running the app.
+
+
+## Official league submissions (v0.7)
+
+This release adds:
+
+- `league.html` — public ranked standings
+- `admin.html` — authenticated official-submission form and delete controls
+- `firebase-config.js` — Firebase project connection
+- `firestore.rules` — public-read/admin-write security rules
+- `FIREBASE_SETUP.md` — exact no-cost setup steps
+
+The submission form stores only the observer name, observation date, resolved spider, SDI score snapshot, and evidence metadata. It does not collect photos, locations, or notes.
+
+Follow `FIREBASE_SETUP.md` after uploading this release to GitHub Pages.

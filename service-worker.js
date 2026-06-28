@@ -1,4 +1,4 @@
-const CACHE_NAME = "spider-league-sdi-v6";
+const CACHE_NAME = "spider-league-sdi-v7";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -10,6 +10,14 @@ const APP_SHELL = [
   "./coverage.js",
   "./diagnostics.html",
   "./diagnostics.js",
+  "./league.html",
+  "./league.js",
+  "./league-core.js",
+  "./admin.html",
+  "./admin.js",
+  "./firebase-client.js",
+  "./firebase-config.js",
+  "./firebase-setup.html",
   "./manifest.webmanifest",
   "./data/manual-aliases.json",
   "./data/sdi-records.json",
@@ -36,6 +44,20 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   const isApi = ["api.inaturalist.org", "api.gbif.org"].includes(url.hostname);
+  const isFirebaseConfig = url.origin === self.location.origin && url.pathname.endsWith("/firebase-config.js");
+
+  if (isFirebaseConfig) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   if (isApi) {
     event.respondWith(

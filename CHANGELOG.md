@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.7.0 — Official league submissions
+
+- Added a public ranked leaderboard with shared ranks for equal SDI scores.
+- Added a protected admin page for approving and deleting official observations.
+- Added automatic spider resolution and SDI snapshotting in the submission form.
+- Added Firebase Authentication and Firestore integration scaffolding.
+- Added strict public-read/admin-write Firestore rules.
+- Added exact no-cost Firebase setup instructions.
+- Added league ranking tests and Firebase diagnostics.
+
 ## 0.6.0 — 2026-06-27
 
 - Added an in-app diagnostics page for local evidence files, iNaturalist, GBIF/Catalogue of Life, and service-worker support.

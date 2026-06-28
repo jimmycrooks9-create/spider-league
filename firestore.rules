@@ -1,0 +1,78 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null
+        && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    function validSubmission() {
+      return request.resource.data.keys().hasOnly([
+          'observerName',
+          'commonName',
+          'scientificName',
+          'taxonRank',
+          'sdi',
+          'confidence',
+          'evidenceScope',
+          'scoreSourceTaxon',
+          'scoreSourceRank',
+          'scoreReviewedDate',
+          'scoreVersion',
+          'observedAt',
+          'createdAt',
+          'createdBy'
+        ])
+        && request.resource.data.observerName is string
+        && request.resource.data.observerName.size() >= 1
+        && request.resource.data.observerName.size() <= 60
+        && request.resource.data.commonName is string
+        && request.resource.data.commonName.size() >= 1
+        && request.resource.data.commonName.size() <= 120
+        && request.resource.data.scientificName is string
+        && request.resource.data.scientificName.size() >= 1
+        && request.resource.data.scientificName.size() <= 180
+        && request.resource.data.taxonRank is string
+        && request.resource.data.taxonRank.size() <= 30
+        && request.resource.data.sdi is number
+        && request.resource.data.sdi >= 0
+        && request.resource.data.sdi <= 10
+        && request.resource.data.confidence is string
+        && request.resource.data.confidence.size() <= 30
+        && request.resource.data.evidenceScope is string
+        && request.resource.data.evidenceScope.size() <= 240
+        && request.resource.data.scoreSourceTaxon is string
+        && request.resource.data.scoreSourceTaxon.size() <= 180
+        && request.resource.data.scoreSourceRank is string
+        && request.resource.data.scoreSourceRank.size() <= 30
+        && request.resource.data.scoreReviewedDate is string
+        && request.resource.data.scoreReviewedDate.size() <= 20
+        && request.resource.data.scoreVersion is string
+        && request.resource.data.scoreVersion.size() <= 20
+        && request.resource.data.observedAt is timestamp
+        && request.resource.data.createdAt is timestamp
+        && request.resource.data.createdBy == request.auth.uid;
+    }
+
+    match /submissions/{submissionId} {
+      allow read: if true;
+      allow create: if isAdmin()
+        && validSubmission()
+        && request.resource.data.createdAt == request.time;
+      allow update: if isAdmin()
+        && validSubmission()
+        && request.resource.data.createdBy == resource.data.createdBy
+        && request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if isAdmin();
+    }
+
+    match /admins/{userId} {
+      allow get: if request.auth != null && request.auth.uid == userId;
+      allow list, create, update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
